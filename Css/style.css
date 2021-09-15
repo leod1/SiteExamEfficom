@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+
+/* Style d'un boutton */
+
+.button {
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    border: solid #2F2E33 4px;
+    border-radius: 100px;
+    display: block;
+    background-color: #3A5199;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: x-large;
+    color: #d5d6d2;
+    text-decoration: none;
+}
+
+
+/* Style des headline */
+
+.headline {
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: xx-large;
+    color: rgb(53, 56, 48);
+}
+
+
+/* Style des texte des différentes headline,d'ou le txt */
+
+.headlinetxt {
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: x-large;
+    color: rgb(53, 56, 48);
+}
+
+
+/* Div du showcase de l'acceuil */
+
+.showcase {
+    margin-top: 20px;
+    border-top: 4px solid #3A5199;
+    width: auto;
+    height: 100px;
+}
+
+
+/* Card d'un produit */
+
+.product {
+    background-color: #2F2E33;
+    display: inline-block;
+    margin: 10px;
+    height: 500px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 1px 10px #3A5199;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+
+/* Image dans la card */
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* ajout dans le showcase d'un text align pour centrer */
+
+.showcase {
+    text-align: center;
+}
+
+
+/* Texte d'une card */
+
+.textcard {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #d5d6d2;
+}
+
+
+/* Nouvelle div pour le showcase des produits */
+
+.showcase2 {
+    border-top: solid #3A5199 4px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(53, 56, 48);
+}
+
+
+/* NOUVELLE BAR NAV !! */
+
+.barrenav {
+    background-color: #2F2E33;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 4px #3A5199;
+}
+
+.logo {
+    position: relative;
+    padding: 3px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    color: #3A5199;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navig {
+    text-decoration: none;
+    color: white;
+    padding: 0 16px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    ;
+}
+
+.navig:hover {
+    background-color: #3A5199;
+}
+
+.navig-log {
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    padding: 0 16px;
+    display: inline-flex;
+    align-items: center;
+    float: right;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navig-log:hover {
+    background-color: #3A5199;
+}
+
+@media (max-width: 600px) {
+    .barrenav {
+        font-size: 10px;
+    }
+    .navig-log {
+        display: inline-flex;
+        text-align: center;
+        float: none;
+    }
+}

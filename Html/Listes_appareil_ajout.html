@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="../Img/Top_OngletB.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/listes_appareils_ajout.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>listes appareils ajout</title>
+</head>
+
+<body>
+    <!-- BARRENAV -->
+    <nav class="barrenav">
+        <h1 class="logo">PHILIPS</h1>
+        <a class="navig" href="../index.html">Accueil</a>
+        <a class="navig" href="appareils.html">Mes Appareils</a>
+        <a class="navig-log" href="profil.html">Mon Profil</a>
+    </nav>
+    <!-- BARRENAV -->
+
+    <!-- DIV HAUT QUI COMPRENDS LA CARD AVEC LA personnalisation DE L'APPAREIL -->
+    <div class="produit_top">
+        <!-- card de l'appareil selectionne  -->
+        <div class="card-top">
+            <img class="image" src="https://www.philips-hue.com/content/experience-fragments/hue/fr/fr/home/smart-lights-smarter-controls/master/_jcr_content/root/section_component/responsivegrid/connected_content_co/left.signifyimg.82.600.png/1604064334438.png"
+                alt="appareils">
+        </div>
+        <!-- personnalisation de l appareils avec emplacement et nom a definir -->
+        <div class="personnalisation">
+            <!-- emplacement de l'appareil -->
+            <select name="pieces" class="pieces_select">
+            <option value="">quels pieces choisir?</option>
+            <option value="salon">salon</option>
+            <option value="salle a manger">salle a manger</option>
+            <option value="salle de bain">salle de bain</option>
+            <option value="chambre">chambre</option>
+            <option value="chambre">chambre</option>
+            <option value="jardin">jardin</option>
+            </select>
+            <!-- definir le nom de l'appareil -->
+            <label for="name">Nom de votre appareil:</label>
+            <input type="text" class="name" name="name" size="15">
+            <!-- boutton enregistrer -->
+            <button class="buttenregistrer">enregistrer</button>
+        </div>
+    </div>
+
+
+    <!-- ligne separatrice -->
+    <hr width="100%">
+
+    <!-- card avec appareils present -->
+    <div class="card">
+        <!-- image du produit que l'on veut ajouter -->
+        <img class="image" src="https://www.philips-hue.com/content/experience-fragments/hue/fr/fr/home/smart-lights-smarter-controls/master/_jcr_content/root/section_component/responsivegrid/connected_content_co/left.signifyimg.82.600.png/1604064334438.png"
+            alt="appareils">
+    </div>
+
+    <div class="card">
+        <img class="image" src="https://www.philips-hue.com/content/experience-fragments/hue/fr/fr/home/smart-lights-smarter-controls/master/_jcr_content/root/section_component/responsivegrid/connected_content_co/right.signifyimg.82.600.png/1604064334438.png"
+            alt="appareils">
+    </div>
+
+    <div class="card">
+        <img class="image" src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74115637/mobile_786_587_png/PHILIPS-HUE-Bluetooth-Spot-triple-Fugato-%C3%A9clairage-blanc-et-color%C3%A9-%285063331P7%29" alt="appareils">
+    </div>
+
+    <div class="card">
+        <img class="image" src="https://www.worldshop.eu/medias/sys_master/h11/h54/8910685405214.png" alt="appareils">
+    </div>
+
+    <div class="card">
+        <!-- boutton pour ajouter d'autre appareils non disponible dans la listes d avant -->
+        <button type="button" class="buttadd">+</button>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

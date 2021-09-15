@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Img/Top_OngletB.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/styleapareils.css">
+    <script type="text/javascript" src="../js/salle.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Mes Appareils</title>
+</head>
+
+<body class="body">
+    <nav class="barrenav">
+        <h1 class="logo">PHILIPS</h1>
+        <a class="navig" href="../index.html">Accueil</a>
+        <a class="navig" href="../Html/appareils.html">Mes Appareils</a>
+        <a class="navig-log" href="../Html/profil.html">Mon Profil</a>
+    </nav>
+
+    <!-- Div du menu burger adapté pour notre page,pris d'internet -->
+    <div class="sallesdiv">
+        <div id="menuToggle">
+            <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+            <input type="checkbox" />
+
+            <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+            <ul id="menu">
+                <a href="#">
+                    <li class="litxt" onclick="addElement()">+</li>
+                </a>
+                <a href="#">
+                    <li class="litxt">Salon</li>
+                </a>
+                <a href="#">
+                    <li class="litxt">Salle a manger</li>
+                </a>
+                <a href="#">
+                    <li class="litxt">Salle de Bain</li>
+                </a>
+                <a href="#">
+                    <li class="litxt">Chambre Parents</li>
+                </a>
+                <a href="#">
+                    <li class="litxt">Chambre Enfants</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Div des différents appareils -->
+    <div class="devicediv">
+        <div class="appareils">
+            <a href="../html/config.html" class="appareilboite">
+                <img class="imageappareil" src="https://cdn.webshopapp.com/shops/62485/files/337568139/320x320x2/philips-hue-hue-buratto-white-ambiance-spot-a-led.jpg">
+                <h2 class="nomappareil">Lampe</h2>
+            </a>
+
+            <a href="../Html/configthermos.html" class="appareilboite">
+                <img class="imageappareil" src="https://images.squarespace-cdn.com/content/v1/53fce470e4b0374adfdd30bc/1470174999664-EK3M3Y95SWK0TPSHP4XG/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmwbA6upbL5Bu97tJociXJklKprRMdH2Tl4F1PjaoPT3YUs5wkl5ojCV1O900UJ7ME/hero-icons-thermostat.png">
+                <h2 class="nomappareil">Thermostat</h2>
+            </a>
+
+            <a href="#" class="appareilboite">
+                <img class="imageappareil" src="https://www.worldshop.eu/medias/sys_master/h11/h54/8910685405214.png">
+                <h2 class="nomappareil">Placeholder</h2>
+            </a>
+
+            <a href="#" class="appareilboite">
+                <img class="imageappareil" src="https://www.philips.fr/c-dam/b2c/category-pages/Household/robot-vacuum-cleaners/robotics/smartpro-active/FC8776_01_smartpro-active-l-v2.png">
+                <h2 class="nomappareil">Placeholder</h2>
+            </a>
+
+            <a href="../Html/Listes_appareil_ajout.html" class="plus">
+                <img class="imageappareil2" src="../Img/plus.png">
+                <h2 class="nomappareil">Ajouter</h2>
+            </a>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

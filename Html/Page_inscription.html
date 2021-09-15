@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Img/Top_OngletB.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Page_inscription.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+JP:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <!-- Ceci est la nav barre, commun à toutes les pages -->
+    <nav class="barrenav">
+        <h1 class="logo">PHILIPS</h1>
+        <a class="navig" href="../index.html">Accueil</a>
+        <a class="navig" href="appareils.html">Mes Appareils</a>
+        <a class="navig-log" href="Page_connexion.html">Se Connecter</a>
+    </nav>
+    <!-- Ceci est la nav barre, commun à toutes les pages -->
+
+    <!-- Début de la page Form (Carre blanc) -->
+    <div class="form">
+        <div class="formCo">Inscription</div>
+        <!-- Début du 2eme carré blanc (Contient le form) -->
+        <div class="formInt">
+            <form action="">
+                <label class="label" for="Nom"> Nom: </label>
+                <input id="Nom" type="text" name="name" class="formLineInline" placeholder="Nom" required>
+
+
+                <label class="label" for="Prénom"> Prénom: </label>
+                <input id="Prénom" type="text" name="name" class="formLineInline" placeholder="Prémon" required>
+                <br>
+
+                <label class="label" for="Email"> Email: </label>
+                <br>
+                <input id="Email" type="text" name="name" class="formLine" placeholder="Address Email" required>
+                <br>
+
+                <label class="label" for="Mdp"> mot de passe: </label>
+                <br>
+                <input id="Mdp" type="password" name="name" class="formLine" placeholder="Mot de passe" required>
+
+                <br>
+                <label class="label" for="confMdp"> Confirmer mot de passe </label>
+                <br>
+                <input id="confMdp" type="password" name="name" class="formLine" placeholder="Confirmation Mdp" required>
+
+                <br>
+                <label class="label" for="birth"> Date de naissance: </label>
+                <br>
+                <input id="birth" type="date" name="name" class="formLine" placeholder="Date de naissance" required>
+                <br>
+                <button formaction="profil.html" class="formBut">Valider</button>
+            </form>
+            <!-- Text pour aller sur page inscription -->
+            <div class="formIntTxt">Si vous avez un compte, vous pouvez vous Connecter <a href="Page_connexion.html">ICI</a></div>
+            <!-- Fin du 2eme carré blanc (Contient le form) -->
+        </div>
+    </div>
+    <!-- Fin de la page Form (Carre blanc) -->
+</body>
+
+</html>
